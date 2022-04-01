@@ -15,7 +15,7 @@ Play as a hero who tries to exterminate bacteria in a petri dish!
 [Link to source code](https://github.com/mchoi574055/Kontagion)
 
 #### Caked Up!
-Game created during ACM Studio's winter snowjam 2021.
+Game created during ACM Studio @ UCLA's winter snowjam 2021.
 
 ![Screenshot_21](https://user-images.githubusercontent.com/56101914/161190111-da2db105-2db0-4c0c-8f52-f1b5bea50f5d.png)
 
