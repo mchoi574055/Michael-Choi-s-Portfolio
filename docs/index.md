@@ -9,22 +9,26 @@ I'm a junior CS major at UCLA. I am an aspiring game developer/designer, and lov
 Game coded in C++.
 
 Play as a hero who tries to exterminate bacteria in a petri dish!
+
 https://github.com/mchoi574055/Kontagion
 
 #### Cake Up!
 Game created during ACM Studio's winter snowjam 2021.
 
 Try and eat as many treats as you can without getting frozen!
+
 https://wrecker-1.itch.io/caked-up
 
 #### Best Game Ever
 Game created during Ludum Dare 49.
 
 Solve the puzzle in each room!
+
 https://brandmuffin.itch.io/best-game-ever
 
 #### Ignis Fatuus
-RPG in Unity in progress.
+RPG in Unity in progress
+.
 https://github.com/danieltsai-RSheepDV/TeamWisp
 
 
