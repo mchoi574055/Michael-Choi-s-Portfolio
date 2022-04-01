@@ -30,5 +30,5 @@ https://github.com/danieltsai-RSheepDV/TeamWisp
 
 ### Contact
 Email: mchoi574055@g.ucla.edu
-Phone: 626-705-6404
+Phone: 626-705-6404 
 
