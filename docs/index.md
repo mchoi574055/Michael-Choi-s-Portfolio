@@ -10,26 +10,26 @@ Game coded in C++.
 
 Play as a hero who tries to exterminate bacteria in a petri dish!
 
-https://github.com/mchoi574055/Kontagion
+[Link to source code](https://github.com/mchoi574055/Kontagion)
 
 #### Cake Up!
 Game created during ACM Studio's winter snowjam 2021.
 
 Try and eat as many treats as you can without getting frozen!
 
-https://wrecker-1.itch.io/caked-up
+[Link to game page](https://wrecker-1.itch.io/caked-up)
 
 #### Best Game Ever
 Game created during Ludum Dare 49.
 
 Solve the puzzle in each room!
 
-https://brandmuffin.itch.io/best-game-ever
+[Link to game page] (https://brandmuffin.itch.io/best-game-ever)
 
 #### Ignis Fatuus
 RPG in Unity in progress
 .
-https://github.com/danieltsai-RSheepDV/TeamWisp
+[Link to progress] (https://github.com/danieltsai-RSheepDV/TeamWisp)
 
 
 ### Contact
