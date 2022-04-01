@@ -42,5 +42,7 @@ RPG in Unity in progress.
 
 ### Contact
 Email: mchoi574055@g.ucla.edu
+
 Linkedin: [michael-choi-610b7818a](linkedin.com/in/michael-choi-610b7818a)
+
 Phone: 626-705-6404 
