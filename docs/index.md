@@ -37,7 +37,7 @@ RPG in Unity in progress.
 
 ![Screenshot_24](https://user-images.githubusercontent.com/56101914/161191040-6c31d4ad-cb77-4c3f-8531-cbf311da44f3.png)
 
-[Link to progress](https://github.com/danieltsai-RSheepDV/TeamWisp)
+[Link to progress](https://github.com/mchoi574055/TeamWispTemp)
 
 
 ### Contact
