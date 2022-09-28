@@ -32,8 +32,8 @@ Solve the puzzle in each room!
 
 [Link to game page](https://brandmuffin.itch.io/best-game-ever)
 
-#### Ignis Fatuus
-RPG in Unity in progress.
+#### Spiritshard
+RPG in Unity. Play as a weapon to accompany and help a hero in need.
 
 ![Screenshot_24](https://user-images.githubusercontent.com/56101914/161191040-6c31d4ad-cb77-4c3f-8531-cbf311da44f3.png)
 
