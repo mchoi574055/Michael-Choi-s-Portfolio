@@ -23,8 +23,8 @@ Game created during Ludum Dare 49.
 Solve the puzzle in each room!
 https://brandmuffin.itch.io/best-game-ever
 
-#### Ignis Fatuus
-RPG in Unity in progress.
+#### Spritshard
+RPG in Unity. Play as a weapon to accompany and help a hero in need.
 https://github.com/danieltsai-RSheepDV/TeamWisp
 
 
