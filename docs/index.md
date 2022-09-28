@@ -1,17 +1,16 @@
 ## Hi, I'm Michael Choi
 
 ### About Me
+
 I'm a junior CS major at UCLA. I am an aspiring game developer/designer, and love everything game-related!
+
 
 ### Projects
 
 #### Kontagion
-Game coded in C++.
-
-![Screenshot_23](https://user-images.githubusercontent.com/56101914/161190376-b9474384-2338-4712-97d8-366edf71e521.png)
-
+> Game coded in C++.
+ ![Screenshot_23](https://user-images.githubusercontent.com/56101914/161190376-b9474384-2338-4712-97d8-366edf71e521.png) 
 Play as a hero who tries to exterminate bacteria in a petri dish!
-
 [Link to source code](https://github.com/mchoi574055/Kontagion)
 
 #### Caked Up!
@@ -54,8 +53,4 @@ Linkedin: [michael-choi-610b7818a](linkedin.com/in/michael-choi-610b7818a)
 Phone: 626-705-6404 
 
 
-*** 
 
-### test
-
-***
