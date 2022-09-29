@@ -9,13 +9,19 @@ html, body {
 }
 
 
-.Game {
-  display: inline-block
+.Games-Display {
+  display: inline-block; 
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .Game-Name {
   justify-content: center;
   color: orangered;
+}
+
+#Kontagion-Name {
+  
 }
 
 #Kontagion-Image {
