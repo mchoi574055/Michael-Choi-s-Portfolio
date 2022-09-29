@@ -4,7 +4,7 @@ html, body {
 
   background-image: url('https://user-images.githubusercontent.com/56101914/192910554-9f31f027-d966-40cc-afc2-16bed3a1909e.jpg');
   background-repeat: no-repeat;
-  background-attachment: local;
+  background-attachment: scroll;
   background-size: cover;
 }
 
