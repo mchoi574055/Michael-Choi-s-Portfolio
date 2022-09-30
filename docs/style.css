@@ -2,30 +2,35 @@ html, body {
   height: 100%;
   width: 100%;
 
-  background-image: url('https://user-images.githubusercontent.com/56101914/192910554-9f31f027-d966-40cc-afc2-16bed3a1909e.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  background-image: linear-gradient(270deg, #5E5AC6, #2A2777);
 }
 
 
 .Games-Display {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .Game {
   display: inline-block;  
 }
 
+/* _______________________ Game Names _______________________*/
 .Game-Name {
-  color: orangered;
+  color: #DC5CFC;
   text-alignment: center;
   justify-content: center;
   display: flex;
 }
 
-/* Game Images */
+
+/* _______________________ Game Images _______________________*/
 .Game-Image {
   display: flex;
   justify-content: center; 
@@ -36,3 +41,33 @@ html, body {
   width: 300px;
   height: 300px;
 }
+
+
+/* _______________________ Overlay _______________________*/
+.Overlay {
+  display: none; 
+}
+
+.Game:hover > .Overlay {
+   display: flex; 
+  justify-content: center;
+}
+
+.Game:hover {
+  transform: scale(1.5, 1.5);
+}
+
+.Label-1 {
+  color: purple;
+}
+
+
+
+
+
+/* _______________________ Pic links _______________________*/
+/*
+Background- https://user-images.githubusercontent.com/56101914/192910554-9f31f027-d966-40cc-afc2-16bed3a1909e.jpg
+
+
+*/
