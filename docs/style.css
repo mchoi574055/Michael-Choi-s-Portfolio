@@ -2,28 +2,28 @@ html, body {
   height: 100%;
   width: 100%;
 
-
+  background: url("https://user-images.githubusercontent.com/56101914/192910554-9f31f027-d966-40cc-afc2-16bed3a1909e.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-image: linear-gradient(270deg, #5E5AC6, #2A2777);
 }
 
 
 .Games-Display {
   padding-top: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
+  display: flex;
 }
 
 .Game {
-  display: inline-block;  
+  display: inline-block;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 /* _______________________ Game Names _______________________*/
 .Game-Name {
-  color: #DC5CFC;
+  color: white;
   text-alignment: center;
   justify-content: center;
   display: flex;
@@ -58,12 +58,64 @@ html, body {
 }
 
 .Label-1 {
-  color: purple;
+  color: white;
+}
+
+/* _______________________ Headings _______________________*/
+.Heading {
+  color: white;
+  padding-left: 75px;
+}
+
+#About-me {
+  padding-top: 120px;
+}
+
+.About-text {
+  padding-top: 15px; 
+  padding-left: 75px; 
+  padding-right: 75px; 
+  color: white;
+}
+
+#Projects {
+  padding-top: 100px;
+}
+
+#Contact {
+  padding-top: 100px;
+}
+
+/* _______________________ Bookmarks _______________________*/
+.Bookmarks
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  background-color: lightgoldenrodyellow;
 }
 
 
+.Bookmark
+{
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: black;
+  justify-content: center;
+}
 
-
+/* _______________________ Dividers _______________________*/
+.Horizontal-Div {
+  width: 90%;
+  border-top: 3px solid lightgoldenrodyellow;
+  justify-content: center;
+  transform: translate(75px, 0);
+}
 
 /* _______________________ Pic links _______________________*/
 /*
