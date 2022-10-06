@@ -9,81 +9,125 @@ html, body {
   background-size: cover;
 }
 
-
+/* _______________________ Game Displays _______________________*/
 .Games-Display {
-  padding-top: 100px;
+  padding-top: 2%;
+ /* border: 4px solid black; */
   display: flex;
+  justify-content: center;
+  padding-left: 2%; padding-right: 2%; 
+  flex-wrap: wrap;
+
 }
 
+
 .Game {
+  width: 30%;
+
+  padding-top: 5%;
   display: inline-block;
-  padding-left: 150px;
-  padding-right: 150px;
+  justify-content: center;
+
+ /* border: 6px solid red; */
+}
+
+.Display {
+  display: inline-block;
+  justify-content: center;
+
+  width: 100%;
+    
+  background-color: lightgoldenrodyellow;
+
+  
+  border-radius: 70%;
+  border: 4px solid black;
+  outline: 4px solid black;
 }
 
 /* _______________________ Game Names _______________________*/
 .Game-Name {
-  color: white;
-  text-alignment: center;
-  justify-content: center;
   display: flex;
+  justify-content: center;
+  color: black;
+
 }
 
 
 /* _______________________ Game Images _______________________*/
 .Game-Image {
   display: flex;
-  justify-content: center; 
-  border-radius: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 4%;
+}
+
+#Caked-Image {
+  width: 80%;
+  height: 80%;
+    border-radius: 60%;
 }
 
 #Kontagion-Image {
-  width: 300px;
-  height: 300px;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
 }
-
 
 /* _______________________ Overlay _______________________*/
 .Overlay {
   display: none; 
+  width: 100%;
+
 }
 
 .Game:hover > .Overlay {
-   display: flex; 
+
+  display: inline-block;
+
+
   justify-content: center;
+  
 }
 
 .Game:hover {
-  transform: scale(1.5, 1.5);
+  transform: scale(1.25, 1.25) 
 }
 
 .Label-1 {
-  color: white;
+  color: black;
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+  border: 4px solid darkslateblue;
+  overflow-wrap: break-word;
+
 }
 
 /* _______________________ Headings _______________________*/
 .Heading {
   color: white;
-  padding-left: 75px;
+  padding-left: 5%;
 }
 
 #About-me {
-  padding-top: 120px;
+  padding-top: 10%;
+
 }
 
 .About-text {
-  padding-top: 15px; 
-  padding-left: 75px; 
-  padding-right: 75px; 
+  padding-top: 2%; 
+  padding-left: 5%; 
+  padding-right: 10%; 
   color: white;
 }
 
 #Projects {
-  padding-top: 100px;
+  padding-top: 10%;
 }
 
 #Contact {
-  padding-top: 100px;
+  padding-top: 10%;
 }
 
 /* _______________________ Bookmarks _______________________*/
@@ -97,6 +141,9 @@ html, body {
   transform: translate(-50%, 0);
 
   background-color: lightgoldenrodyellow;
+  border: 6px solid black;
+  z-index: 1000;
+
 }
 
 
@@ -107,19 +154,39 @@ html, body {
   padding-right: 50px;
   color: black;
   justify-content: center;
+
 }
 
 /* _______________________ Dividers _______________________*/
 .Horizontal-Div {
-  width: 90%;
+  width: 80%;
   border-top: 3px solid lightgoldenrodyellow;
   justify-content: center;
-  transform: translate(75px, 0);
+  transform: translate(5%, 0);
 }
+
+/* _______________________ Contact Section _______________________*/
+#Contact-Section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  background-color: skyblue;
+  border: 6px solid lightgoldenrodyellow;
+  z-index: 1000;
+}
+
+.Contact-text {
+  padding-left: 5%; 
+  padding-right: 10%; 
+}
+
 
 /* _______________________ Pic links _______________________*/
 /*
 Background- https://user-images.githubusercontent.com/56101914/192910554-9f31f027-d966-40cc-afc2-16bed3a1909e.jpg
+
+background: linear-gradient(270deg, #3670F7, #07339B);
 
 
 */
