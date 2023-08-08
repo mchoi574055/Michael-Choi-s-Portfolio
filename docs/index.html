@@ -1,183 +1,327 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en">
 
-<link href="style.css" rel="stylesheet" type="text/css"/>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
 
-  
-<!-- Bookmarks -->
-<div class = Bookmarks> 
-  <a href= "#About-me">
-    <h2 class = "Bookmark">About me</h2>
-  </a>
-  <a href= "#Work-Experience">
-    <h2 class = "Bookmark">Work Experience</h2>
-  </a>
-   <a href= "#Projects">
-    <h2 class = "Bookmark">Projects</h2>
-   </a>
-  <a href= "#Contact">
-    <h2 class = "Bookmark">Contact</h2>
-  </a>
-</div>
-
-<!-- About me -->
-<h1 class = "Heading" id = "About-me">About me</h1>  
-<p class = "Horizontal-Div"></p>
- <h2 class = "About-text">Hi, I'm Michael Choi, an aspiring software engineer, and game lover.</h2> 
-
-<!-- Work experience -->
-<h1 class = "Heading" id = "Work-Experience">Work Experience</h1>
-<p class = "Horizontal-Div"></p>
-<h2 style = "color: white; padding-left: 5%;">Hover over each icon to see which companies I have worked at!</h2>
-<div style = "padding-left: 5%; padding-right: 5%; display: flex;"> 
-<div class = "Games-Display">
-
-  <!-- Build-It-Yourself -->
-  <div class = "Game">
-    <div class = "Display">
-      <h2 class = "Game-Name">Build-It-Yourself</h2>
-      <img class = "Game-Image" id = "Kontagion-Image" src = "https://github.com/mchoi574055/Portfolio/assets/56101914/a0cd1f7f-0089-4540-8145-530751c08c23" alt = "Build pic">
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
-    <div class = "Overlay">
-   <h3 class = "Label-1">Worked from December 2022 – June 2023. As a Software Engineer at Build-It-Yourself, my primary responsibility was to enhance the digital experience for our young users. I was involved in the front-end development of the platform's React application, which serves as a social networking site for children to showcase their work.
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
 
-    <br></br> I played a pivotal role in implementing significant features, such as a comment system, which encouraged engagement and interaction among the users. Furthermore, I expertly handled various bugs in the front-end, ensuring a smooth and user-friendly experience.
-    
-    <br></br> Additionally, I utilized AWS services for the backend. I set up and managed the user authentication and authorization using AWS Cognito, thus ensuring the security of user data. I also utilized AWS Lambda for function execution and AWS DynamoDB for database management.</h3>     
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Michael Choi</h1>
+            <h2>Software Engineer</h2>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
     </div>
-  </div>
+    <!-- End #lead -->
 
-
-  <!-- Jendia Studios -->
-  <div style = "display: inline-block; padding-left: 20%;"></div> 
-  <div id = "Jendia" class = "Game">
-    <div class = "Display">
-      <h2 class = "Game-Name">Jendia Studios</h2>
-        <img class = "Game-Image" id = "Jendia-Image" src = "https://github-production-user-asset-6210df.s3.amazonaws.com/56101914/238106533-fea627fd-646c-42da-80e1-5cd292a3ea50.png" alt = "Jendia pic">
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                      Hi, I'm a Computer Science graduate from UCLA, where I specialized in areas such as Software Engineering, Machine Learning, and Algorithms. During my studies, I explored various subjects that prepared me for my career as a Software Engineer.
+                      <br></br>
+                      I had the opportunity to work at Build-It-Yourself from December 2022 to July 2023, where I played a pivotal role in developing a React app for a social networking site and managing a serverless backend using AWS Lambda. Prior to that, I interned at Jendia Studios LLC, where I actively contributed to the third-person adventure game, Stellar Skies, using Unreal Engine (C++), creating major gameplay features and devising an object detection system.
+                      I also spent a year as a C/C++ Tutor with The Princeton Review, helping college-level students understand complex topics like hashing and pointer management.
+                      <br></br>
+                      My skills encompass a wide range of languages and developer tools including C#, JavaScript, C/C++, Python, React, and AWS. When I'm not coding, I enjoy hobbies like tennis, running, and gaming.
+                      Feel free to connect with me to learn more about my journey!
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-    
-    <div class = "Overlay">
-    <h3 class = "Label-1">Worked from June 2022 - September 2022. As a Software Engineer Intern at Jendia Studios, my role was multi-faceted and involved working on various aspects of game development and infrastructure. I was instrumental in creating major gameplay features for the flagship third-person adventure game, Stellar Skies.
-      <br></br>
-      I was in charge of developing a scalable dialogue system using NotYetGame's Dialogue Plugin System and Unreal blueprints. This system facilitated interactive dialogues and helped make the game characters more engaging and realistic. 
-      Another significant contribution was the design and implementation of an efficient interaction system. This system allowed a player to trigger specific game events through interactions, thus making the game more immersive.
-      <br></br>
-      I also practiced Scrum methodologies, where I played a key role in improving the processes during our bi-weekly sprints.
-    </h3>    
-    </div>
-  </div>
+    <!-- End #about -->
 
-  <!-- Tutor.com -->
-  <div id = "Tutor" class = "Game">
-    <div class = "Display">
-      <h2 class = "Game-Name">Tutor.com</h2>
-      <img class = "Game-Image" src = "https://github-production-user-asset-6210df.s3.amazonaws.com/56101914/238106534-70184b27-5eb1-41a6-9963-2a8242211d3f.png" alt = "BGE pic">
-    </div>
-    <div class = "Overlay">
-   <h3 class = "Label-1">
-    Worked from June 2021 - June 2022. I held the position of an Online C/C++ Tutor, where I leveraged my strong academic background and passion for teaching to help students succeed. I worked with a diverse range of students, assisting them with their homework, explaining complex concepts in an accessible manner, and providing them with strategies to improve their academic performance.
-  <br></br>
-  I also received positive feedback from students for my ability to explain difficult concepts in a clear and understandable way,  and had an average rating of 4.7/5. 
-  </h3>     
-    </div>
-  </div>
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="December 2022 – July 2023">
+                <h3>Build-It-Yourself</h3>
+                <h4>Software Engineer</h4>
+                <p>
+                  As a Software Engineer at Build-It-Yourself, my primary responsibility was to enhance the digital experience for our young users. I was involved in the front-end development of the platform's React application, which serves as a social networking site for children to showcase their work.
+                  <br></br>
+                  I played a pivotal role in implementing significant features, such as a comment system, which encouraged engagement and interaction among the users. Furthermore, I expertly handled various bugs in the front-end, ensuring a smooth and user-friendly experience.
+                  <br></br>
+                  Additionally, I utilized AWS services for the backend. I set up and managed the user authentication and authorization using AWS Cognito, thus ensuring the security of user data. I also utilized AWS Lambda for function execution and AWS DynamoDB for database management.
+                </p>
+            </div>
 
-</div>
-</div>
+            <div data-date="June 2022 – September 2022">
+                <h3>Jendia Studios</h3>
+                <h4>Software Engineer Intern</h4>
+                <p>
+                  As a Software Engineer Intern at Jendia Studios, my role was multi-faceted and involved working on various aspects of game development and infrastructure. I was instrumental in creating major gameplay features for the flagship third-person adventure game, Stellar Skies.
+                  <br></br>
+                  I was in charge of developing a scalable dialogue system using NotYetGame's Dialogue Plugin System and Unreal blueprints. This system facilitated interactive dialogues and helped make the game characters more engaging and realistic. Another significant contribution was the design and implementation of an efficient interaction system. This system allowed a player to trigger specific game events through interactions, thus making the game more immersive.
+                  <br><br>
+                  I also practiced Scrum methodologies, where I played a key role in improving the processes during our bi-weekly sprints.
+                </p>
+            </div>
 
-
-
-<!-- Website projects -->
-<h1 class = "Heading" id = "Projects">Projects</h1>
-<p class = "Horizontal-Div"></p>
-<h2 style = "color: white; padding-left: 5%;">Hover over the game images to see more info. Click the image to be redirected to the relevant web page showcasing my work!</h2>
-<div style = "padding-left: 5%; padding-right: 5%; display: flex;"> 
-<div class = "Games-Display">
-
-  <!-- Stellar Skies -->
-  <div class = "Game">
-    <div class = "Display">
-      <h2 class = "Game-Name">Stellar Skies</h2>
-      <a class = "Link" target = "_blank" href = "https://youtu.be/NxGIlV8nHSI">
-      <img class = "Game-Image" id = "Kontagion-Image" src = "https://user-images.githubusercontent.com/56101914/194189373-3fa13072-4b25-4e3c-936a-efa8891cff3a.png" alt = "Stellar pic">
-      </a>
+            <div data-date="June 2021 – June 2022">
+                <h3>Tutor.com</h3>
+                <h4>C/C++ Tutor</h4>
+                <p>
+                  I held the position of an Online C/C++ Tutor, where I leveraged my strong academic background and passion for teaching to help students succeed. I worked with a diverse range of students, assisting them with their homework, explaining complex concepts in an accessible manner, and providing them with strategies to improve their academic performance.
+                  <br></br>
+                  I also received positive feedback from students for my ability to explain difficult concepts in a clear and understandable way, and had an average rating of 4.7/5.                </p>
+            </div>
+        </div>
     </div>
-    <div class = "Overlay">
-   <h3 class = "Label-1">Coded in C++/blueprint with Unreal Engine for my internship at Jendia Studios. Created an objection detection system, interaction system, and dialogue system.<br></br>The game is still in development, so play testing is not available. However, blueprint code can be showcased upon request. Click to see what I did!</h3>     
-    </div>
-  </div>
+    <!-- End #experience -->
 
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+          <h3>University of California, Los Angeles</h3>
+          <span class="education-date">Sept 2019 - June 2023</span>
+          <h4>Bachelor of Science in Computer Science</h4>
+          GPA: 3.5/4.0
+          <br></br>
+          Relevant coursework:
+          <ul>
+              <li>Software Engineering</li>
+              <li>Machine Learning</li>
+              <li>Data Management Systems</li>
+              <li>Computer Network Fundamentals</li>
+              <li>Operating Systems Principles</li>
+              <li>Data Structures</li>
+              <li>Algorithms</li>
+          </ul>
+      </div>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
 
-  <!-- Caked -->
-  <div style = "display: inline-block; padding-left: 20%;"></div> 
-  <div id = "Caked" class = "Game">
-    <div class = "Display">
-      <h2 class = "Game-Name">Caked Up!</h2>
-      <a class = "Link" target = "_blank" href = "https://wrecker-1.itch.io/caked-up">
-        <img class = "Game-Image" id = "Caked-Image" src = "https://user-images.githubusercontent.com/56101914/161190111-da2db105-2db0-4c0c-8f52-f1b5bea50f5d.png" alt = "Caked pic">
-      </a>
-    </div>
-    
-    <div class = "Overlay">
-    <h3 class = "Label-1">Highscore arcade-like game coded in C# using the Unity engine. Created a randomized food spawner using coroutines.<br></br>Try and gobble as many snacks as you can while avoiding the falling ice!</h3>    
-    </div>
-  </div>
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
 
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/stellar.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Stellar Skies</h3>
+                        <p>
+                          Coded in C++/blueprint with Unreal Engine for my internship at Jendia Studios. Created an objection detection system, interaction system, and dialogue system.
+                          <br></br>
+                          The game is still in development, so play testing is not available. However, blueprint code can be showcased upon request. Click to see what I did!                        </p>
+                        <a href="https://www.youtube.com/watch?v=NxGIlV8nHSI&ab_channel=MICHAELCHOI" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
 
-  <!-- Best Game Ever -->
-  <div id = "Best-Game-Ever" class = "Game">
-    <div class = "Display">
-      <h2 class = "Game-Name">Best Game Ever</h2>
-      <a class = "Link" target = "_blank" href = "https://brandmuffin.itch.io/best-game-ever">
-      <img class = "Game-Image" id = "Kontagion-Image" src = "https://user-images.githubusercontent.com/56101914/161189928-a432e635-eb29-42bb-b37a-8605781f45a5.png" alt = "BGE pic">
-      </a>
-    </div>
-    <div class = "Overlay">
-   <h3 class = "Label-1">Puzzle game coded in C# using the Unity engine. Coded puzzle solutions and created a scrolling dialogue system. <br></br>Solve the puzzle in each room!</h3>     
-    </div>
-  </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Caked.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Caked Up!</h3>
+                        <p>
+                          Highscore arcade-like game coded in C# using the Unity engine. Created a randomized food spawner using coroutines.<br></br>Try and gobble as many snacks as you can while avoiding the falling ice!                        
+                        </p>
+                        <a href="https://wrecker-1.itch.io/caked-up" target = "_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
 
-  <!-- SpiritShard -->
-  <div style = "display: inline-block; padding-left: 20%;"></div>  
-    <div id = "SpiritShard" class = "Game">
-    <div class = "Display">
-      <h2 class = "Game-Name">SpiritShard</h2>
-      <a class = "Link" target = "_blank" href = "https://rslashsp.itch.io/spritshard">
-        <img class = "Game-Image" id = "Caked-Image" src = "https://user-images.githubusercontent.com/56101914/161191040-6c31d4ad-cb77-4c3f-8531-cbf311da44f3.png" alt = "Caked pic">
-      </a>
-    </div>
-    <div class = "Overlay">
-    <h3 class = "Label-1">RPG coded in C# using the Unity Engine. Created the saving system and worked on some of the UI menus. <br></br>Play as a weapon to accompany a hero in need!</h3>    
-    </div>
-  </div>
+                <div class="project shadow-large">
+                  <div class="project-image">
+                      <img src="images/bestgame.png" />
+                  </div>
+                  <!-- End .project-image -->
+                  <div class="project-info">
+                      <h3>Best Game Ever</h3>
+                      <p>
+                        Puzzle game coded in C# using the Unity engine. Coded puzzle solutions and created a scrolling dialogue system. <br></br>Solve the puzzle in each room!
+                      </p>
+                      <a href="https://brandmuffin.itch.io/best-game-ever" target="_blank">View Project</a>
+                  </div>
+                  <!-- End .project-info -->
+              </div>
+              <!-- End .project -->
 
-  <!-- Kontagion -->
-  <div class = "Game">
-    <div class = "Display">
-      <h2 class = "Game-Name">Kontagion</h2>
-      <a class = "Link" target = "_blank" href = "https://github.com/mchoi574055/Kontagion">
-      <img class = "Game-Image" id = "Kontagion-Image" src = "https://user-images.githubusercontent.com/56101914/161190376-b9474384-2338-4712-97d8-366edf71e521.png" alt = "Kontagion pic">
-      </a>
-    </div>
-    <div class = "Overlay">
-   <h3 class = "Label-1">Coded in C++. Created for a school project. Used OOP to design an efficient class system that optimizes inheritance for common functionalities.<br></br>Play as a hero trying to exterminate bacteria in a petri dish!</h3>     
-    </div>
-  </div>
-  
-</div>
-</div>
-<!-- Contact -->
-<h1 class = "Heading" id = "Contact">Contact</h1>  
-<p class = "Horizontal-Div"></p>
+              <div class="project shadow-large">
+                  <div class="project-image">
+                      <img src="images/spirit.png" />
+                  </div>
+                  <!-- End .project-image -->
+                  <div class="project-info">
+                      <h3>Spiritshard</h3>
+                      <p>
+                        RPG coded in C# using the Unity Engine. Created the saving system and worked on some of the UI menus. <br></br>Play as a weapon to accompany a hero in need!</h3>                   
+                      </p>
+                      <a target = "_blank" href="https://rslashsp.itch.io/spritshard">View Project</a>
+                  </div>
+                  <!-- End .project-info -->
+              </div>
+              <!-- End .project -->
 
-<div style = "padding-bottom: 3%; padding-left: 5%; padding-right: 10%;">
-<div id = "Contact-Section">
-   <h2 class = "Contact-text" style = "color: black; text-align: center;">
-     <a class = "Link" href= "https://github.com/mchoi574055" alt = "Github link" target = "_blank">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     <a class = "Link" href= "https://www.linkedin.com/in/michael-choi-610b7818a/" alt = "Linkedin link" target = "_blank">Linkedin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     email: mchoi574055@g.ucla.edu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     phone: 626-705-6404
-   </h2>
-</div>
-</div>
+              <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/Kontagion.png" />
+                </div>
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>Kontagion</h3>
+                    <p>
+                      Coded in C++. Created for a school project. Used OOP to design an efficient class system that optimizes inheritance for common functionalities.<br></br>Play as a hero trying to exterminate bacteria in a petri dish!
+                    </p>
+                    <a target = "_blank" href="https://github.com/mchoi574055/Kontagion">View Project</a>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Node.js</li>
+            <li>React</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>C#</li>
+            <li>C++</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SQL</li>
+            <li>AWS</li>
+            <li>RESTful API</li>
+            <li>OOP</li>
+
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch!<br></br>email: mchoi574055@g.ucla.edu<br></br>phone: 626-705-6404</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2023</span> Michael Choi
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/mchoi574055" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <!-- <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li> -->
+                        <li>
+                            <a href="https://www.linkedin.com/in/michael-choi-610b7818a/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <!-- <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li> -->
+                        <!-- <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li> -->
+                        <!-- <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li> -->
+                        <li>
+                          <a href="mailto:mchoi574055@g.ucla.edu" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </li>
+                      
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
 </html>
